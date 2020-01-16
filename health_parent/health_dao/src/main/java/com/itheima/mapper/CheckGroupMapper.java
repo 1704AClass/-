@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.ibatis.annotations.Delete;
+import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
 import com.github.pagehelper.Page;
@@ -28,5 +29,7 @@ public interface CheckGroupMapper {
 	void edit(CheckGroup checkGroup);
 
 	void deleteAssocication(Integer id);
+	@Select("select * from t_checkgroup")
+	List<CheckGroup> findAll();
 
 }

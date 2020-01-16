@@ -109,4 +109,17 @@ public class CheckGroupController {
             return new Result(false, MessageConstant.QUERY_CHECKITEM_FAIL);
         }
     }
+    /**
+     * 检查组列表
+     */
+    @RequestMapping("/findAll")
+    public Result findAll() {
+    	List<CheckGroup> checkGroupList = checkGroupService.findAll();
+        if (checkGroupList != null && checkGroupList.size() > 0) {
+            Result result = new Result(true, MessageConstant.QUERY_CHECKITEM_SUCCESS);
+            result.setData(checkGroupList);
+            return result;
+        }
+        return new Result(false, MessageConstant.QUERY_CHECKITEM_FAIL);
+    }
 }

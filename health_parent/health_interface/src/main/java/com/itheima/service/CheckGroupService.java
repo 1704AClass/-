@@ -20,5 +20,7 @@ public interface CheckGroupService {
 	void add(CheckGroup checkGroup, Integer[] checkItemId);
 
 	List<Integer> findCheckItemIdsAndCheckGroupId(Integer id);
+
+	List<CheckGroup> findAll();
 	
 }

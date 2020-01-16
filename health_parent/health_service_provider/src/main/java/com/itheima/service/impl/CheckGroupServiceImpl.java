@@ -96,4 +96,10 @@ public class CheckGroupServiceImpl implements CheckGroupService{
 			}
 		}
 	}
+
+	@Override
+	public List<CheckGroup> findAll() {
+		// TODO Auto-generated method stub
+		return checkGroupmapper.findAll();
+	}
 }

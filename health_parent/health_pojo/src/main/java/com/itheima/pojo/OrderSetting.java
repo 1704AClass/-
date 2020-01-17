@@ -51,4 +51,11 @@ public class OrderSetting implements Serializable{
     public void setReservations(int reservations) {
         this.reservations = reservations;
     }
+
+	@Override
+	public String toString() {
+		return "OrderSetting [id=" + id + ", orderDate=" + orderDate + ", number=" + number + ", reservations="
+				+ reservations + "]";
+	}
+    
 }

@@ -29,4 +29,6 @@ public interface SetmealMapper {
 
 	Page<CheckGroup> pageQuery(String queryString);
 
+	Setmeal findByid(int id);
+
 }

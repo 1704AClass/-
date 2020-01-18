@@ -23,4 +23,6 @@ public interface SetmealService {
 
 	void add(Setmeal setmeal, Integer[] checkGroupId);
 
+	Setmeal findByid(int id);
+
 }

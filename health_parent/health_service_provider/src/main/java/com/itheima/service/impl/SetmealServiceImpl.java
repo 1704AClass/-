@@ -109,4 +109,10 @@ public class SetmealServiceImpl implements SetmealService{
 		redisTemplate.boundSetOps(RedisConstant.SETMEAL_PIC_DB_RESOURCES).add(img);
 		/*redisTemplate.boundHashOps("imgDbAll").put(RedisConstant.SETMEAL_PIC_DB_RESOURCES, img);*/
 	}
+
+	@Override
+	public Setmeal findByid(int id) {
+		// TODO Auto-generated method stub
+		return setmealMapper.findByid(id);
+	}
 }

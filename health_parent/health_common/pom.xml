@@ -159,5 +159,9 @@
 		<groupId>org.quartz-scheduler</groupId>
 		<artifactId>quartz-jobs</artifactId>
 	</dependency>
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>servlet-api</artifactId>
+	</dependency>
   </dependencies>
 </project>

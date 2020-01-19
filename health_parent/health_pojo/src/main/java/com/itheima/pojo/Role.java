@@ -72,4 +72,11 @@ public class Role implements Serializable {
     public void setMenus(LinkedHashSet<Menu> menus) {
         this.menus = menus;
     }
+
+	@Override
+	public String toString() {
+		return "Role [id=" + id + ", name=" + name + ", keyword=" + keyword + ", description=" + description
+				+ ", users=" + users + ", permissions=" + permissions + ", menus=" + menus + "]";
+	}
+    
 }

@@ -1,5 +1,9 @@
 D:\Maven\eclipse2\health_parent\health_backend\src\main\java\com\itheima\controller\CheckItemController.java
+D:\Maven\eclipse2\health_parent\health_backend\src\main\java\com\itheima\service\AuthenticationProviderImpl.java
 D:\Maven\eclipse2\health_parent\health_backend\src\main\java\com\itheima\controller\CheckGroupController.java
 D:\Maven\eclipse2\health_parent\health_backend\src\main\java\com\itheima\controller\SetmealController.java
 D:\Maven\eclipse2\health_parent\health_backend\src\main\java\com\itheima\controller\OrderSettingController.java
 D:\Maven\eclipse2\health_parent\health_backend\src\main\java\com\itheima\controller\ItheimaController.java
+D:\Maven\eclipse2\health_parent\health_backend\src\main\java\com\itheima\controller\UserController.java
+D:\Maven\eclipse2\health_parent\health_backend\src\main\java\com\itheima\service\UserDetailsServiceImpl.java
+D:\Maven\eclipse2\health_parent\health_backend\src\main\java\com\itheima\controller\ReportController.java

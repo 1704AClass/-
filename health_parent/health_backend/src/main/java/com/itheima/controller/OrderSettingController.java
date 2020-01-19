@@ -30,8 +30,7 @@ public class OrderSettingController {
 	private OrderSettingService orderSettingService;
 	
 	/**
-	* Excel文件上传，解析文件内容保存到数据库
-	 * @return 
+	* Excel文件上传
 	*/
 	@RequestMapping("/upload")
 	public Result upload(@RequestParam("excelFile") MultipartFile excelFile) {

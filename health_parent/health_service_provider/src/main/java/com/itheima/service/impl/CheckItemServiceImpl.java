@@ -29,7 +29,6 @@ public class CheckItemServiceImpl implements CheckItemService{
 	@Override
 	public void delete(Integer id) {
 		// TODO Auto-generated method stub
-		System.out.println(id);
 		checkItemMapper.deleteAssocication(id);
 		checkItemMapper.dels(id);
 	}

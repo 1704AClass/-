@@ -14,6 +14,7 @@ public class ItheimaController {
 	private ItheimaService itheimaService;
 	@RequestMapping("/loginName")
 	public String loginName() {
+		//安全框架直接获取用户名
 		String name = SecurityContextHolder.getContext().getAuthentication().getName();
 		return name;
 	}

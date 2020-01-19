@@ -5,7 +5,9 @@ import java.util.List;
 import java.util.Map;
 
 import com.itheima.pojo.OrderSetting;
-
+/**
+ * 注释在xml
+ * */
 public interface OrderSettingMapper {
 
 	long findCountByOrderDate(Date orderDate);

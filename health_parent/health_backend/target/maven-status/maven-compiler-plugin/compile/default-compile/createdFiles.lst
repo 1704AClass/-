@@ -2,4 +2,8 @@ com\itheima\controller\OrderSettingController.class
 com\itheima\controller\CheckItemController.class
 com\itheima\controller\SetmealController.class
 com\itheima\controller\ItheimaController.class
+com\itheima\controller\UserController.class
+com\itheima\service\AuthenticationProviderImpl.class
+com\itheima\controller\ReportController.class
 com\itheima\controller\CheckGroupController.class
+com\itheima\service\UserDetailsServiceImpl.class

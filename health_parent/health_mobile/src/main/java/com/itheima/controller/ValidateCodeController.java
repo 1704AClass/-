@@ -33,7 +33,6 @@ public class ValidateCodeController {
 			e.printStackTrace();
 			return new Result(false,MessageConstant.SEND_VALIDATECODE_FAIL);
 		}
-		System.out.println(code);
 		redisTemplate.boundHashOps("SmsTelephone").put(RedisMessageConstant.SENDTYPE_ORDER, code);
 		return new Result(true, MessageConstant.SEND_VALIDATECODE_SUCCESS);
 	}

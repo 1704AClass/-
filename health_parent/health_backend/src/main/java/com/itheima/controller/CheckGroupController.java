@@ -1,24 +1,18 @@
 package com.itheima.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.alibaba.fastjson.JSON;
 import com.itheima.constant.MessageConstant;
 import com.itheima.pojo.CheckGroup;
-import com.itheima.pojo.CheckItem;
 import com.itheima.service.CheckGroupService;
-import com.itheima.service.CheckItemService;
 
 import entity.PageResult;
 import entity.QueryPageBean;
 import entity.Result;
 
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.io.Console;
-import java.util.Arrays;
 import java.util.List;
 
 /**

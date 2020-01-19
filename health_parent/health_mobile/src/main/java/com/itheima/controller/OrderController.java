@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.aliyuncs.exceptions.ClientException;
 import com.itheima.constant.MessageConstant;
 import com.itheima.constant.RedisMessageConstant;
 import com.itheima.pojo.Order;

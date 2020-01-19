@@ -4,6 +4,9 @@
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
  
  <mapper namespace="com.itheima.mapper.SetmealMapper">
+ 	<select id="findSetmealCount" resultType="map">
+ 		select s.name,count(o.id) as value from t_order o ,t_setmeal s where o.setmeal_id = s.id group by s.name
+ 	</select>
  	<!-- 查询列表 -->
  	<select id="pageQuery" resultType="com.itheima.pojo.Setmeal" parameterType="String">
  		select * from t_setmeal
